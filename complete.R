@@ -16,22 +16,22 @@ complete <- function(directory, id = 1:332) {
 ## to be used
 
 ## Return a data frame of the form:
-## id nobs
+## ID nobs
 ## 1  117
 ## 2  1041
 ## ...
-## where 'id' is the monitor ID number and 'nobs' is the
+## where 'ID' is the monitor ID number and 'nobs' is the
 ## number of complete cases
 
 ##source("complete.R")
 ##complete("specdata", 1)
 
-##   id nobs
+##   ID nobs
 ## 1  1  117
 
 ##complete("specdata", c(2, 4, 8, 10, 12))
 
-##   id nobs
+##   ID nobs
 ## 1  2 1041
 ## 2  4  474
 ## 3  8  192
@@ -40,7 +40,7 @@ complete <- function(directory, id = 1:332) {
 
 ##complete("specdata", 30:25)
 
-##   id nobs
+##   ID nobs
 ## 1 30  932
 ## 2 29  711
 ## 3 28  475
@@ -50,5 +50,5 @@ complete <- function(directory, id = 1:332) {
 
 ##complete("specdata", 3)
 
-##   id nobs
+##   ID nobs
 ## 1  3  243
